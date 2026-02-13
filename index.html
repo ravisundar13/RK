@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Sundar | Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="resume-container">
+        <header>
+            <div>
+                <h1 id="user-name"></h1>
+                <p id="user-title"></p>
+            </div>
+            <button class="btn-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+        </header>
+        <aside class="sidebar">
+            <h2>Contact</h2>
+            <p id="contact-info"></p>
+            <h2>Skills</h2>
+            <div id="skills-container"></div>
+            <h2>Certifications</h2>
+            <ul id="certs-list" style="list-style: none; font-size: 0.9rem;"></ul>
+        </aside>
+        <main class="main-content">
+            <h2>Profile</h2>
+            <p id="summary-text"></p>
+            <h2>Professional Experience</h2>
+            <div id="experience-list"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
