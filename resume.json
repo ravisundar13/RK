@@ -1,0 +1,13 @@
+{
+    "personal_info": {
+        "name": "Ravi Sundar Kakaraparthi",
+        "title": "Executive Manager | Azure Solution Architect",
+        "mobile": "+91 9502277450",
+        "email": "ravisundar13@gmail.com"
+    },
+    "summary": "Executive Manager with strong team and stakeholder management experience...",
+    "skills": {
+        "Cloud": ["Azure Functions", "ADF", "DevOps"],
+        "Development": ["C#", ".NET", "ReactJS"]
+    }
+}
