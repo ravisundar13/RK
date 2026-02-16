@@ -3,43 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravi Sundar | 2026 Interactive Resume</title>
+    <title>Ravi Sundar | Executive Resume 2026</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container" id="resume-container">
+    <div class="container">
         <header>
             <div class="header-text">
                 <h1 id="name"></h1>
-                <p id="title" class="subtitle"></p>
+                <p id="title"></p>
             </div>
-            <div class="header-actions">
-                <button class="btn" onclick="toggleTheme()">🌓 Theme</button>
-                <button class="btn btn-primary" onclick="window.print()">📄 Print PDF</button>
-            </div>
+            <button class="btn btn-primary" onclick="window.print()">Download PDF</button>
         </header>
 
         <div class="grid-layout">
             <aside class="sidebar">
                 <section>
                     <h3>Contact</h3>
-                    <div id="contact" class="small-text"></div>
+                    <div id="contact"></div>
                 </section>
-                <section id="skills-section">
-                    <h3>Leadership & Cloud</h3>
-                </section>
-                <section>
-                    <h3>Certifications</h3>
-                    <ul id="certs" class="small-text"></ul>
-                </section>
+                <section id="skills-section"></section>
             </aside>
 
             <main class="content">
                 <section>
+                    <h2>Executive Impact</h2>
+                    <div id="impact-container" class="impact-grid"></div>
+                </section>
+
+                <section>
                     <h2>Professional Summary</h2>
                     <p id="summary"></p>
                 </section>
+
                 <section>
                     <h2>Experience</h2>
                     <div id="experience"></div>
