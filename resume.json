@@ -1,13 +1,61 @@
 {
-    "personal_info": {
-        "name": "Ravi Sundar Kakaraparthi",
-        "title": "Executive Manager | Azure Solution Architect",
-        "mobile": "+91 9502277450",
-        "email": "ravisundar13@gmail.com"
+  "personal_info": {
+    "name": "Ravi Sundar Kakaraparthi",
+    "title": "Executive Manager | Azure Solution Architect",
+    "mobile": "+91 9502277450",
+    "email": "ravisundar13@gmail.com",
+    "location": "Hyderabad, India",
+    "languages": ["English", "Telugu"]
+  },
+  "summary": "Executive Manager with strong team, stakeholder and people management experience, with 15+ years in Azure solution design and development. Proven track record leading complex technology services, building (Hiring, Coaching, Managing) high-performing teams, and delivering enterprise-grade cloud for global clients.",
+  "employment_summary": [
+    {"company": "Deloitte", "role": "Executive Manager", "dates": "Jan 2024 – Present"},
+    {"company": "Ness Digital Engineering", "role": "Engineering Manager", "dates": "Mar 2023 – Jan 2024"},
+    {"company": "Microsoft", "role": "Consultant", "dates": "June 2016 – Mar 2023"},
+    {"company": "Deloitte", "role": "Analyst", "dates": "June 2014 – April 2016"},
+    {"company": "Mahindra Satyam", "role": "Jr. Software Engineer", "dates": "July 2011 – June 2014"}
+  ],
+  "skills_highlights": {
+    "Leadership": ["Managing team size of 100+", "Extended Leadership of 1100+ members", "Engineering Manager for 20 resources"],
+    "Cloud & Stack": ["Azure (Functions, Web Apps, ADF, Key Vault)", "ASP.NET MVC, ReactJS, C#, Graph API", "Azure DevOps & Agile"]
+  },
+  "experience_details": [
+    {
+      "company": "Deloitte",
+      "role": "Executive Manager – Service Lead",
+      "period": "Jan 2024 – Present",
+      "skills": "Azure, Team Management, Stakeholder Management, Operations",
+      "highlights": [
+        "Managing 17 direct reports with an overall span of 56 members.",
+        "Grown the team by 120% over 2 years and added 4 new service offerings.",
+        "Managing team in a Role-Based Organization with no additional head count and handling Contingency Work Force.",
+        "Led upskilling initiatives for 200+ people, resulting in 110+ certifications.",
+        "Full stack developer for 'Nucleus': Built automated SQL permission provisioning using Azure Entra groups."
+      ]
     },
-    "summary": "Executive Manager with strong team and stakeholder management experience...",
-    "skills": {
-        "Cloud": ["Azure Functions", "ADF", "DevOps"],
-        "Development": ["C#", ".NET", "ReactJS"]
+    {
+      "company": "Ness Digital Engineering",
+      "role": "Engineering Manager / Architect",
+      "period": "Mar 2023 – Jan 2024",
+      "highlights": [
+        "Managing a team of 20 and designing scalable STR compliance solutions on Azure."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "role": "Consultant / Dev Lead",
+      "period": "2016 – 2023",
+      "highlights": [
+        "Unified Search: Worked with Graph API, Cognitive Services, and ADF to digitize subsurface data.",
+        "Search CoE: Optimized LOB data ingestion and relevance for Shell's global workforce.",
+        "Special Handling: Developed Web API for S2S communication between Deloitte Tax LOB and SharePoint 2013."
+      ]
     }
+  ],
+  "certifications": [
+    "Teams Application Developer Associate (MS-600)",
+    "DevOps Engineer Expert (AZ-400)",
+    "Azure Developer Associate (AZ-203 & AZ-204)",
+    "Azure AI Engineer Associate (AI-102)"
+  ]
 }
