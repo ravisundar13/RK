@@ -1,16 +1,35 @@
 :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --text: #1e293b;
     --primary: #2563eb;
-    --dark: #1e293b;
-    --light: #f8fafc;
-    --accent: #3b82f6;
-    --text: #334155;
+    --accent: #eff6ff;
+    --border: #e2e8f0;
 }
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
-body { background: var(--light); color: var(--text); line-height: 1.6; transition: background 0.3s; }
-.container { max-width: 1000px; margin: 40px auto; display: grid; grid-template-columns: 300px 1fr; gap: 30px; background: white; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden; }
-header { grid-column: 1 / -1; background: var(--dark); color: white; padding: 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid var(--primary); }
-.sidebar { background: #f1f5f9; padding: 30px; border-right: 1px solid #e2e8f0; }
-.main-content { padding: 40 (trimmed for brevity) }
-.skill-tag { display: inline-block; background: white; border: 1px solid #cbd5e1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin: 3px; }
-.dark-mode { --light: #0f172a; --text: #f1f5f9; }
-.dark-mode .container { background: #1e293b; }
+
+.dark-mode {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #f1f5f9;
+    --primary: #60a5fa;
+    --accent: #1e293b;
+    --border: #334155;
+}
+
+body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; padding: 20px; transition: 0.3s; }
+.container { max-width: 1100px; margin: 0 auto; background: var(--card); border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+header { padding: 40px; background: var(--text); color: white; display: flex; justify-content: space-between; align-items: center; }
+.header-actions { display: flex; gap: 10px; }
+.grid-layout { display: grid; grid-template-columns: 320px 1fr; }
+.sidebar { padding: 40px; background: var(--accent); border-right: 1px solid var(--border); }
+.content { padding: 40px; }
+h2 { color: var(--primary); border-bottom: 2px solid var(--border); padding-bottom: 10px; margin-top: 30px; }
+.exp-item { margin-bottom: 30px; padding-left: 15px; border-left: 3px solid var(--primary); }
+.btn { padding: 8px 16px; border-radius: 6px; cursor: pointer; border: 1px solid var(--border); font-weight: 600; }
+.btn-primary { background: var(--primary); color: white; border: none; }
+
+@media print {
+    .header-actions { display: none; }
+    body { padding: 0; }
+    .container { box-shadow: none; border: none; }
+}
