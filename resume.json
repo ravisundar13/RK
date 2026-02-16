@@ -4,33 +4,38 @@
     "title": "Executive Manager | Azure Solution Architect",
     "mobile": "+91 9502277450",
     "email": "ravisundar13@gmail.com",
-    "location": "Hyderabad, India",
-    "languages": ["English", "Telugu"]
+    "location": "Hyderabad, India"
   },
-  "summary": "Executive Manager with strong team, stakeholder and people management experience, with 15+ years in Azure solution design and development. Proven track record leading complex technology services, building (Hiring, Coaching, Managing) high-performing teams, and delivering enterprise-grade cloud for global clients.",
-  "employment_summary": [
-    {"company": "Deloitte", "role": "Executive Manager", "dates": "Jan 2024 – Present"},
-    {"company": "Ness Digital Engineering", "role": "Engineering Manager", "dates": "Mar 2023 – Jan 2024"},
-    {"company": "Microsoft", "role": "Consultant", "dates": "June 2016 – Mar 2023"},
-    {"company": "Deloitte", "role": "Analyst", "dates": "June 2014 – April 2016"},
-    {"company": "Mahindra Satyam", "role": "Jr. Software Engineer", "dates": "July 2011 – June 2014"}
+  "recruiter_impact": [
+    { "metric": "100+", "label": "Team Size Managed" },
+    { "metric": "120%", "label": "Operational Growth" },
+    { "metric": "1100+", "label": "ELT Leadership Scope" },
+    { "metric": "200+", "label": "Professionals Upskilled" }
   ],
+  [span_2](start_span)"summary": "Executive Manager with 15+ years in Azure solution design and development[span_2](end_span). [span_3](start_span)Proven track record leading complex technology services, building (Hiring, Coaching, Managing) high-performing teams, and delivering enterprise-grade cloud for global clients[span_3](end_span).",
   "skills_highlights": {
-    "Leadership": ["Managing team size of 100+", "Extended Leadership of 1100+ members", "Engineering Manager for 20 resources"],
-    "Cloud & Stack": ["Azure (Functions, Web Apps, ADF, Key Vault)", "ASP.NET MVC, ReactJS, C#, Graph API", "Azure DevOps & Agile"]
+    "Leadership": [
+      [span_4](start_span)"Managing team size of 100+[span_4](end_span)",
+      [span_5](start_span)"Extended Leadership of 1100+ members[span_5](end_span)",
+      [span_6](start_span)"Contingency Work Force management[span_6](end_span)"
+    ],
+    "Cloud & Stack": [
+      [span_7](start_span)"Azure (Functions, Web Apps, ADF)[span_7](end_span)",
+      [span_8](start_span)"ASP.NET MVC, ReactJS, C#, Graph API[span_8](end_span)",
+      [span_9](start_span)"Azure DevOps & Agile[span_9](end_span)"
+    ]
   },
   "experience_details": [
     {
       "company": "Deloitte",
       "role": "Executive Manager – Service Lead",
       "period": "Jan 2024 – Present",
-      "skills": "Azure, Team Management, Stakeholder Management, Operations",
       "highlights": [
-        "Managing 17 direct reports with an overall span of 56 members.",
-        "Grown the team by 120% over 2 years and added 4 new service offerings.",
-        "Managing team in a Role-Based Organization with no additional head count and handling Contingency Work Force.",
-        "Led upskilling initiatives for 200+ people, resulting in 110+ certifications.",
-        "Full stack developer for 'Nucleus': Built automated SQL permission provisioning using Azure Entra groups."
+        [span_10](start_span)"Managing 17 direct reports with a total span of 56 members[span_10](end_span).",
+        [span_11](start_span)"Grown the team by 120% over 2 years and added 4 new service offerings[span_11](end_span).",
+        [span_12](start_span)"Strategic ELT member for 1200+ members[span_12](end_span).",
+        [span_13](start_span)"Led upskilling for 200+ people resulting in 110+ certifications[span_13](end_span).",
+        [span_14](start_span)"Automated SQL permissions for 'Nucleus' using Azure Entra groups[span_14](end_span)."
       ]
     },
     {
@@ -38,24 +43,18 @@
       "role": "Engineering Manager / Architect",
       "period": "Mar 2023 – Jan 2024",
       "highlights": [
-        "Managing a team of 20 and designing scalable STR compliance solutions on Azure."
+        [span_15](start_span)"Managing a team of 20 and designing scalable STR compliance solutions on Azure[span_15](end_span)."
       ]
     },
     {
       "company": "Microsoft",
       "role": "Consultant / Dev Lead",
-      "period": "2016 – 2023",
+      "period": "June 2016 – March 2023",
       "highlights": [
-        "Unified Search: Worked with Graph API, Cognitive Services, and ADF to digitize subsurface data.",
-        "Search CoE: Optimized LOB data ingestion and relevance for Shell's global workforce.",
-        "Special Handling: Developed Web API for S2S communication between Deloitte Tax LOB and SharePoint 2013."
+        [span_16](start_span)"Designed enterprise-wide search portals for Shell[span_16](end_span).",
+        [span_17](start_span)"Utilized Graph API and AI to digitize subsurface data[span_17](end_span).",
+        [span_18](start_span)"Technical Delivery Lead for 9 members[span_18](end_span)."
       ]
     }
-  ],
-  "certifications": [
-    "Teams Application Developer Associate (MS-600)",
-    "DevOps Engineer Expert (AZ-400)",
-    "Azure Developer Associate (AZ-203 & AZ-204)",
-    "Azure AI Engineer Associate (AI-102)"
   ]
 }
